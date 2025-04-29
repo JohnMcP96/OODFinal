@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\tocok\\Desktop\\OOD\\Budget Project\\OOD Final\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{778B782B-7329-4A27-A67C-82A79E146B99}|OOD Final\\OOD Final.csproj|c:\\users\\tocok\\desktop\\ood\\budget project\\ood final\\ood final\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{778B782B-7329-4A27-A67C-82A79E146B99}|OOD Final\\OOD Final.csproj|solutionrelative:ood final\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{778B782B-7329-4A27-A67C-82A79E146B99}|OOD Final\\OOD Final.csproj|c:\\users\\tocok\\desktop\\ood\\budget project\\ood final\\ood final\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{778B782B-7329-4A27-A67C-82A79E146B99}|OOD Final\\OOD Final.csproj|solutionrelative:ood final\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{778B782B-7329-4A27-A67C-82A79E146B99}|OOD Final\\OOD Final.csproj|C:\\Users\\tocok\\Desktop\\OOD\\Budget Project\\OOD Final\\ood final\\taxcalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{778B782B-7329-4A27-A67C-82A79E146B99}|OOD Final\\OOD Final.csproj|solutionrelative:ood final\\taxcalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{778B782B-7329-4A27-A67C-82A79E146B99}|OOD Final\\OOD Final.csproj|C:\\Users\\tocok\\Desktop\\OOD\\Budget Project\\OOD Final\\ood final\\budgetmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,12 +15,16 @@
       "RelativeMoniker": "D:0:0:{778B782B-7329-4A27-A67C-82A79E146B99}|OOD Final\\OOD Final.csproj|solutionrelative:ood final\\budgetentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{778B782B-7329-4A27-A67C-82A79E146B99}|OOD Final\\OOD Final.csproj|C:\\Users\\tocok\\Desktop\\OOD\\Budget Project\\OOD Final\\ood final\\taxcalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{778B782B-7329-4A27-A67C-82A79E146B99}|OOD Final\\OOD Final.csproj|solutionrelative:ood final\\taxcalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{778B782B-7329-4A27-A67C-82A79E146B99}|OOD Final\\OOD Final.csproj|C:\\Users\\tocok\\Desktop\\OOD\\Budget Project\\OOD Final\\ood final\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{778B782B-7329-4A27-A67C-82A79E146B99}|OOD Final\\OOD Final.csproj|solutionrelative:ood final\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{778B782B-7329-4A27-A67C-82A79E146B99}|OOD Final\\OOD Final.csproj|c:\\users\\tocok\\desktop\\ood\\budget project\\ood final\\ood final\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{778B782B-7329-4A27-A67C-82A79E146B99}|OOD Final\\OOD Final.csproj|solutionrelative:ood final\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{778B782B-7329-4A27-A67C-82A79E146B99}|OOD Final\\OOD Final.csproj|C:\\Users\\tocok\\Desktop\\OOD\\Budget Project\\OOD Final\\ood final\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{778B782B-7329-4A27-A67C-82A79E146B99}|OOD Final\\OOD Final.csproj|solutionrelative:ood final\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{778B782B-7329-4A27-A67C-82A79E146B99}|OOD Final\\OOD Final.csproj|C:\\Users\\tocok\\Desktop\\OOD\\Budget Project\\OOD Final\\ood final\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
@@ -76,7 +76,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\tocok\\Desktop\\OOD\\Budget Project\\OOD Final\\OOD Final\\Form1.cs",
               "RelativeDocumentMoniker": "OOD Final\\Form1.cs",
@@ -89,7 +89,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\tocok\\Desktop\\OOD\\Budget Project\\OOD Final\\OOD Final\\Form1.cs",
               "RelativeDocumentMoniker": "OOD Final\\Form1.cs",
@@ -101,7 +101,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "Logger.cs",
               "DocumentMoniker": "C:\\Users\\tocok\\Desktop\\OOD\\Budget Project\\OOD Final\\OOD Final\\Logger.cs",
               "RelativeDocumentMoniker": "OOD Final\\Logger.cs",
@@ -109,11 +109,12 @@
               "RelativeToolTip": "OOD Final\\Logger.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T01:24:23.222Z"
+              "WhenOpened": "2025-04-29T01:24:23.222Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "BudgetEntry.cs",
               "DocumentMoniker": "C:\\Users\\tocok\\Desktop\\OOD\\Budget Project\\OOD Final\\OOD Final\\BudgetEntry.cs",
               "RelativeDocumentMoniker": "OOD Final\\BudgetEntry.cs",
@@ -121,11 +122,12 @@
               "RelativeToolTip": "OOD Final\\BudgetEntry.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T01:24:10.711Z"
+              "WhenOpened": "2025-04-29T01:24:10.711Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "BudgetManager.cs",
               "DocumentMoniker": "C:\\Users\\tocok\\Desktop\\OOD\\Budget Project\\OOD Final\\OOD Final\\BudgetManager.cs",
               "RelativeDocumentMoniker": "OOD Final\\BudgetManager.cs",
@@ -133,11 +135,12 @@
               "RelativeToolTip": "OOD Final\\BudgetManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T01:23:52.418Z"
+              "WhenOpened": "2025-04-29T01:23:52.418Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "TaxCalculator.cs",
               "DocumentMoniker": "C:\\Users\\tocok\\Desktop\\OOD\\Budget Project\\OOD Final\\OOD Final\\TaxCalculator.cs",
               "RelativeDocumentMoniker": "OOD Final\\TaxCalculator.cs",
@@ -145,7 +148,8 @@
               "RelativeToolTip": "OOD Final\\TaxCalculator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T01:23:36.983Z"
+              "WhenOpened": "2025-04-29T01:23:36.983Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
