@@ -7,3 +7,4 @@
 *.vsdx
 bin/
 obj/
+OOD Final/.vs/
