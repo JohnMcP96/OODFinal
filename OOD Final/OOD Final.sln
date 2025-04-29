@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35919.96 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOD Final", "OOD Final\OOD Final.csproj", "{778B782B-7329-4A27-A67C-82A79E146B99}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{778B782B-7329-4A27-A67C-82A79E146B99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{778B782B-7329-4A27-A67C-82A79E146B99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{778B782B-7329-4A27-A67C-82A79E146B99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{778B782B-7329-4A27-A67C-82A79E146B99}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6311B3E9-223D-4563-A56B-12442C872BDD}
+	EndGlobalSection
+EndGlobal
