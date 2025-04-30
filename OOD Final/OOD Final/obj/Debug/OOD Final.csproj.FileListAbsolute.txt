@@ -2,3 +2,9 @@ C:\Users\tocok\Desktop\OOD\Budget Project\OOD Final\OOD Final\obj\Debug\OOD Fina
 C:\Users\tocok\Desktop\OOD\Budget Project\OOD Final\OOD Final\obj\Debug\OOD_Final.Form1.resources
 C:\Users\tocok\Desktop\OOD\Budget Project\OOD Final\OOD Final\obj\Debug\OOD Final.csproj.GenerateResource.cache
 C:\Users\tocok\Desktop\OOD\Budget Project\OOD Final\OOD Final\obj\Debug\OOD Final.csproj.CoreCompileInputs.cache
+C:\Users\tocok\Desktop\OOD\Budget Project\OOD Final\OOD Final\bin\Debug\OOD Final.exe.config
+C:\Users\tocok\Desktop\OOD\Budget Project\OOD Final\OOD Final\bin\Debug\OOD Final.exe
+C:\Users\tocok\Desktop\OOD\Budget Project\OOD Final\OOD Final\bin\Debug\OOD Final.pdb
+C:\Users\tocok\Desktop\OOD\Budget Project\OOD Final\OOD Final\obj\Debug\OOD Final.exe
+C:\Users\tocok\Desktop\OOD\Budget Project\OOD Final\OOD Final\obj\Debug\OOD Final.pdb
+C:\Users\tocok\Desktop\OOD\Budget Project\OOD Final\OOD Final\obj\Debug\OOD_Final.UpdateChoiceForm.resources

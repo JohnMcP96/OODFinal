@@ -37,39 +37,43 @@
             // 
             // btnAddIncome
             // 
-            this.btnAddIncome.Location = new System.Drawing.Point(86, 102);
+            this.btnAddIncome.Location = new System.Drawing.Point(86, 267);
             this.btnAddIncome.Name = "btnAddIncome";
             this.btnAddIncome.Size = new System.Drawing.Size(168, 65);
             this.btnAddIncome.TabIndex = 0;
-            this.btnAddIncome.Text = "🦅Add Income🦅";
+            this.btnAddIncome.Text = "Add Income";
             this.btnAddIncome.UseVisualStyleBackColor = true;
+            this.btnAddIncome.Click += new System.EventHandler(this.btnAddIncome_Click);
             // 
             // btnAddExpense
             // 
-            this.btnAddExpense.Location = new System.Drawing.Point(441, 102);
+            this.btnAddExpense.Location = new System.Drawing.Point(441, 267);
             this.btnAddExpense.Name = "btnAddExpense";
             this.btnAddExpense.Size = new System.Drawing.Size(168, 65);
             this.btnAddExpense.TabIndex = 1;
             this.btnAddExpense.Text = "Add Expense";
             this.btnAddExpense.UseVisualStyleBackColor = true;
+            this.btnAddExpense.Click += new System.EventHandler(this.btnAddExpense_Click);
             // 
             // btnUpdateBudget
             // 
-            this.btnUpdateBudget.Location = new System.Drawing.Point(86, 199);
+            this.btnUpdateBudget.Location = new System.Drawing.Point(86, 338);
             this.btnUpdateBudget.Name = "btnUpdateBudget";
             this.btnUpdateBudget.Size = new System.Drawing.Size(168, 65);
             this.btnUpdateBudget.TabIndex = 2;
             this.btnUpdateBudget.Text = "Update Budget";
             this.btnUpdateBudget.UseVisualStyleBackColor = true;
+            this.btnUpdateBudget.Click += new System.EventHandler(this.btnUpdateBudget_Click);
             // 
             // btnViewBudget
             // 
-            this.btnViewBudget.Location = new System.Drawing.Point(441, 199);
+            this.btnViewBudget.Location = new System.Drawing.Point(441, 338);
             this.btnViewBudget.Name = "btnViewBudget";
             this.btnViewBudget.Size = new System.Drawing.Size(168, 65);
             this.btnViewBudget.TabIndex = 3;
             this.btnViewBudget.Text = "View Budget";
             this.btnViewBudget.UseVisualStyleBackColor = true;
+            this.btnViewBudget.Click += new System.EventHandler(this.btnViewBudget_Click);
             // 
             // textBox1
             // 
