@@ -31,7 +31,11 @@ namespace OOD_Final
 
             if (decimal.TryParse(amountStr, out decimal amount))
             {
-                budgetManager.AddIncome(new Income(source, amount));
+                var income = new Income(source, amount);
+                budgetManager.AddIncome(income);
+                budgetManager.Logger.Log($"Added income: {source} - ${amount}/month");
+                RefreshLog();
+                RefreshIncomeAndExpenseLists();
                 MessageBox.Show("Income added.");
             }
             else
@@ -47,13 +51,16 @@ namespace OOD_Final
 
             if (decimal.TryParse(amountStr, out decimal amount))
             {
-                string interestStr = Prompt.ShowDialog("Enter interest rate (or leave blank):", "Add Expense");
-                string termStr = Prompt.ShowDialog("Enter term in months (or leave blank):", "Add Expense");
+                string interestStr = Prompt.ShowDialog("Enter interest rate (optional):", "Add Expense");
+                string termStr = Prompt.ShowDialog("Enter term in months (optional):", "Add Expense");
 
                 decimal? interest = decimal.TryParse(interestStr, out decimal i) ? i : (decimal?)null;
                 int? term = int.TryParse(termStr, out int t) ? t : (int?)null;
 
                 budgetManager.AddExpense(new Expense(name, amount, interest, term));
+                budgetManager.Logger.Log($"Expense added: {name}, ${amount}");
+                RefreshIncomeAndExpenseLists();
+                RefreshLog();
                 MessageBox.Show("Expense added.");
             }
             else
@@ -71,6 +78,8 @@ namespace OOD_Final
                              $"Expenses: ${summary.Expenses}\n" +
                              $"Surplus: ${summary.Surplus}";
 
+            budgetManager.Logger.Log("Viewed budget summary.");
+            RefreshLog();
             MessageBox.Show(message, "Budget Summary");
         }
 
@@ -101,6 +110,8 @@ namespace OOD_Final
                     {
                         budgetManager.Incomes[index - 1] = new Income(newSource, newAmount);
                         budgetManager.Logger.Log($"Updated income #{index}");
+                        RefreshLog();
+                        RefreshIncomeAndExpenseLists();
                         MessageBox.Show("Income updated.");
                     }
                     else MessageBox.Show("Invalid amount.");
@@ -132,6 +143,8 @@ namespace OOD_Final
 
                         budgetManager.Expenses[index - 1] = new Expense(newName, newAmount, interest, term);
                         budgetManager.Logger.Log($"Updated expense #{index}");
+                        RefreshLog();
+                        RefreshIncomeAndExpenseLists();
                         MessageBox.Show("Expense updated.");
                     }
                     else MessageBox.Show("Invalid amount.");
@@ -139,5 +152,31 @@ namespace OOD_Final
                 else MessageBox.Show("Invalid selection.");
             }
         }
+
+        private void RefreshLog()
+        {
+            lstLogger.Items.Clear();
+            foreach (var entry in budgetManager.Logger.GetLogs())
+            {
+                lstLogger.Items.Add(entry);
+            }
+        }
+
+        private void RefreshIncomeAndExpenseLists()
+        {
+            lstIncomes.Items.Clear();
+            foreach (var income in budgetManager.Incomes)
+            {
+                lstIncomes.Items.Add($"{income.Source} - ${income.MonthlyAmount}");
+            }
+
+            lstExpenses.Items.Clear();
+            foreach (var expense in budgetManager.Expenses)
+            {
+                lstExpenses.Items.Add($"{expense.Name} - ${expense.MonthlyAmount}");
+            }
+        }
+
+
     }
 }

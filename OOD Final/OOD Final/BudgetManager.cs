@@ -21,13 +21,11 @@ namespace OOD_Final
         public void AddIncome(Income income)
         {
             Incomes.Add(income);
-            Logger.Log("Added income: " + income.Source + ", $" + income.MonthlyAmount + "/month");
         }
 
         public void AddExpense(Expense expense)
         {
             Expenses.Add(expense);
-            Logger.Log("Added expense: " + expense.Name + ", $" + expense.MonthlyAmount + "/month");
         }
 
         public BudgetEntry GetBudgetSummary()

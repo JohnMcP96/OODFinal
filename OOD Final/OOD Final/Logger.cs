@@ -14,8 +14,7 @@ namespace OOD_Final
 
         public void Log(string message)
         {
-            string timestamp = DateTime.Now.ToString("g");
-            entries.Add(timestamp + " - " + message);
+            entries.Add(message);
         }
 
         public List<string> GetLogs()
