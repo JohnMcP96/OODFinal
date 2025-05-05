@@ -1,11 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
-using System.Drawing;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace OOD_Final
@@ -72,11 +67,11 @@ namespace OOD_Final
         private void btnViewBudget_Click(object sender, EventArgs e)
         {
             var summary = budgetManager.GetBudgetSummary();
-            string message = $"Gross Income: ${summary.GrossIncome}\n" +
-                             $"Net Income: ${summary.NetIncome}\n" +
-                             $"Taxes: ${summary.Taxes}\n" +
-                             $"Expenses: ${summary.Expenses}\n" +
-                             $"Surplus: ${summary.Surplus}";
+            string message = $"Gross Income: ${summary.GrossIncome:F2}\n" +
+                             $"Net Income: ${summary.NetIncome:F2}\n" +
+                             $"Taxes: ${summary.Taxes:F2}\n" +
+                             $"Expenses: ${summary.Expenses:F2}\n" +
+                             $"Surplus: ${summary.Surplus:F2}";
 
             budgetManager.Logger.Log("Viewed budget summary.");
             RefreshLog();
@@ -177,6 +172,9 @@ namespace OOD_Final
             }
         }
 
+        private void lstExpenses_SelectedIndexChanged(object sender, EventArgs e)
+        {
 
+        }
     }
 }

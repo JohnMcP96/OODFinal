@@ -41,6 +41,7 @@
             // 
             // btnAddIncome
             // 
+            this.btnAddIncome.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.btnAddIncome.Location = new System.Drawing.Point(26, 106);
             this.btnAddIncome.Name = "btnAddIncome";
             this.btnAddIncome.Size = new System.Drawing.Size(107, 34);
@@ -51,6 +52,7 @@
             // 
             // btnAddExpense
             // 
+            this.btnAddExpense.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.btnAddExpense.Location = new System.Drawing.Point(26, 146);
             this.btnAddExpense.Name = "btnAddExpense";
             this.btnAddExpense.Size = new System.Drawing.Size(107, 34);
@@ -61,6 +63,7 @@
             // 
             // btnUpdateBudget
             // 
+            this.btnUpdateBudget.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.btnUpdateBudget.Location = new System.Drawing.Point(26, 186);
             this.btnUpdateBudget.Name = "btnUpdateBudget";
             this.btnUpdateBudget.Size = new System.Drawing.Size(107, 34);
@@ -71,6 +74,7 @@
             // 
             // btnViewBudget
             // 
+            this.btnViewBudget.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.btnViewBudget.Location = new System.Drawing.Point(26, 226);
             this.btnViewBudget.Name = "btnViewBudget";
             this.btnViewBudget.Size = new System.Drawing.Size(107, 34);
@@ -81,6 +85,7 @@
             // 
             // textBox1
             // 
+            this.textBox1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.textBox1.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.ForeColor = System.Drawing.Color.Red;
@@ -102,11 +107,12 @@
             this.lstLogger.Location = new System.Drawing.Point(363, 105);
             this.lstLogger.Name = "lstLogger";
             this.lstLogger.ScrollAlwaysVisible = true;
-            this.lstLogger.Size = new System.Drawing.Size(222, 264);
+            this.lstLogger.Size = new System.Drawing.Size(222, 316);
             this.lstLogger.TabIndex = 5;
             // 
             // textBox2
             // 
+            this.textBox2.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.textBox2.Location = new System.Drawing.Point(26, 80);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(82, 20);
@@ -115,6 +121,7 @@
             // 
             // lstIncomes
             // 
+            this.lstIncomes.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.lstIncomes.FormattingEnabled = true;
             this.lstIncomes.Location = new System.Drawing.Point(26, 275);
             this.lstIncomes.Name = "lstIncomes";
@@ -124,12 +131,14 @@
             // 
             // lstExpenses
             // 
+            this.lstExpenses.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.lstExpenses.FormattingEnabled = true;
-            this.lstExpenses.Location = new System.Drawing.Point(181, 275);
+            this.lstExpenses.Location = new System.Drawing.Point(195, 275);
             this.lstExpenses.Name = "lstExpenses";
             this.lstExpenses.ScrollAlwaysVisible = true;
             this.lstExpenses.Size = new System.Drawing.Size(137, 147);
             this.lstExpenses.TabIndex = 8;
+            this.lstExpenses.SelectedIndexChanged += new System.EventHandler(this.lstExpenses_SelectedIndexChanged);
             // 
             // Form1
             // 
