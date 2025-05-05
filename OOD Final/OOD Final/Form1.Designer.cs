@@ -37,6 +37,9 @@
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.lstIncomes = new System.Windows.Forms.ListBox();
             this.lstExpenses = new System.Windows.Forms.ListBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textBox5 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // btnAddIncome
@@ -104,7 +107,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lstLogger.FormattingEnabled = true;
             this.lstLogger.HorizontalScrollbar = true;
-            this.lstLogger.Location = new System.Drawing.Point(363, 105);
+            this.lstLogger.Location = new System.Drawing.Point(363, 122);
             this.lstLogger.Name = "lstLogger";
             this.lstLogger.ScrollAlwaysVisible = true;
             this.lstLogger.Size = new System.Drawing.Size(222, 316);
@@ -123,7 +126,7 @@
             // 
             this.lstIncomes.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.lstIncomes.FormattingEnabled = true;
-            this.lstIncomes.Location = new System.Drawing.Point(26, 275);
+            this.lstIncomes.Location = new System.Drawing.Point(26, 291);
             this.lstIncomes.Name = "lstIncomes";
             this.lstIncomes.ScrollAlwaysVisible = true;
             this.lstIncomes.Size = new System.Drawing.Size(136, 147);
@@ -133,18 +136,46 @@
             // 
             this.lstExpenses.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.lstExpenses.FormattingEnabled = true;
-            this.lstExpenses.Location = new System.Drawing.Point(195, 275);
+            this.lstExpenses.Location = new System.Drawing.Point(197, 291);
             this.lstExpenses.Name = "lstExpenses";
             this.lstExpenses.ScrollAlwaysVisible = true;
             this.lstExpenses.Size = new System.Drawing.Size(137, 147);
             this.lstExpenses.TabIndex = 8;
             this.lstExpenses.SelectedIndexChanged += new System.EventHandler(this.lstExpenses_SelectedIndexChanged);
             // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(67, 266);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(50, 20);
+            this.textBox3.TabIndex = 9;
+            this.textBox3.Text = "Incomes";
+            this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
+            // 
+            // textBox4
+            // 
+            this.textBox4.Location = new System.Drawing.Point(235, 265);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(57, 20);
+            this.textBox4.TabIndex = 10;
+            this.textBox4.Text = "Expenses";
+            // 
+            // textBox5
+            // 
+            this.textBox5.Location = new System.Drawing.Point(445, 96);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(64, 20);
+            this.textBox5.TabIndex = 11;
+            this.textBox5.Text = "Budget Log";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(597, 450);
+            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.textBox3);
             this.Controls.Add(this.lstExpenses);
             this.Controls.Add(this.lstIncomes);
             this.Controls.Add(this.textBox2);
@@ -172,5 +203,8 @@
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.ListBox lstIncomes;
         private System.Windows.Forms.ListBox lstExpenses;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox textBox5;
     }
 }
